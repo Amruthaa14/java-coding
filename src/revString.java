@@ -1,4 +1,4 @@
-import java.util.;
+import java.util.*;
 public class revString
   {
     public static void main(String args[])
@@ -6,12 +6,12 @@ public class revString
       Scanner sc=new Scanner(System.in);
       String str=sc.next();
       String rev="";
-      for(int i=str.length()-1;i<=1;i++)
+      for(int i=str.length()-1;i>=0;i--)
         {
           rev+=str.charAt(i);
         }
-      System.out.print("rev");
+      System.out.print(rev);
     }
   }
-}
+
           
